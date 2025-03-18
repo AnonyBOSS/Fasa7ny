@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="Feedback.css">
+</head>
+<body>
+
+<h2 id="feedbackHeading" class="heading">Feedback</h2>
+
+<form id="contactForm" action="#" method="post">
+    <label for="name">Username:</label><br>
+    <input type="text" id="name" name="name" required><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    
+    <label for="message">Feedback:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br>
+    
+    <input type="checkbox" id="termsCheckbox" name="termsCheckbox" required>
+    <label for="termsCheckbox">I have already read and understand the <a href="Terms_and_Services.html" target="_blank">Terms and Services</a></label><br>
+    <p> </p>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+
+<div id="thankYouMessage" style="display: none;">
+    <h3>Thank you for your feedback!</h3>
+</div>
+
+<script src="Feedback.js"></script>
+
+</body>
+</html>

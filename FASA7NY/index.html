@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tourist Treasures</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="dev2">
+      <ol>
+        <li><a href="login.html">LogIn</a></li>
+        <li><a href="signup.html">SignUP</a></li>
+        <li><a href="Feedback.html">Feedback</a></li>
+      </ol>
+    </div>
+    <h1><a href="index.html" style=" color: aliceblue; font-size: 34px; font-family:arial; text-decoration: none;">Tourist Treasures</a></h1>
+     
+    <div class="search-container">
+      
+      <input type="text" placeholder="Search..." id="search-input">
+
+      <button class="searchbtn" onclick="search()">Search</button>
+    </div>
+  </header>
+  <br><br><br><br>
+  <div id="country-info">
+    <h2>Welcome to Tourist Treasures</h2>
+    <p>Select a country from the navigation to get started.</p>
+    <div class="image-gallery">
+        <div class="image-container">
+            <a href="egypt.html" ><img src="egypt.jpg"></a>
+            <span class="img-title">Egypt</span>
+        </div>
+        <div class="image-container">
+            <a href="japan.html"><img src="japan.jpg"></a>
+            <span class="img-title">Japan</span>
+        </div>
+        <div class="image-container">
+            <a href="UAE.html" ><img src="uae.jpg"></a>
+            <span class="img-title">UAE</span>
+        </div>
+        <div class="image-container">
+            <a href="maldives.html" ><img src="maldives.jpg"></a>
+            <span class="img-title">Maldives</span>
+        </div>
+    </div>
+    
+    
+  </div>
+  
+  <div class="navigation-bar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="about.html">About</a></li>
+        <div class="imgco">
+          <li><a href="https://www.facebook.com/"><img src="facebook.png" class="face"></a></li>
+          <li><a href="https://www.instagram.com/"><img src="insta.png" width="28px"></a></li>
+          <li><a href="https://twitter.com/"><img src="x.png" width="28px"></a></li>
+
+        </div>   
+      </ul>
+  </div>
+  
+  <div class="wishlist-section">
+    <h1>Wishlist</h1>
+    <div class="wishlist-container">
+      <input type="text" id="itemInput" placeholder="Add an item...">
+      <button onclick="addItem()">Add Item</button>
+  
+      <table id="wishlistTable">
+          <thead>
+              <tr>
+                  <th>Item</th>
+                  <th>Action</th>
+              </tr>
+          </thead>
+          <tbody>
+              
+          </tbody>
+      </table>
+  </div>
+    
+    
+ 
+    </div>
+
+</body>
+</html>

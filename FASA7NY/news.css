@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .news-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .news-item {
+    margin-bottom: 20px;
+  }
+  
+  .news-item h3 {
+    color: #333;
+  }
+  
+  .date {
+    color: #999;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+  .prices-container {
+    margin-top: 20px;
+  }
+  .prices-container input[type="text"] {
+    margin-right: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #347f21;
+    padding: 10px;
+    text-align: left;
+  }
+    
+  button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 5px;
+    transition: color 0.3s;
+  }
+  .prices-section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+  }
+  
+  .prices-section h2 {
+    color: #333;
+  }
